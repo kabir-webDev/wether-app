@@ -25,6 +25,7 @@ searchCity = () => {
   getWeatherData(city)
     .then((res) => {
       showWeatherData(res);
+      console.log(res);
     })
     .catch((error) => {
       console.log(error);
